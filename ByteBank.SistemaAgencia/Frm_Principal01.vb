@@ -60,4 +60,10 @@
         F.MdiParent = Me
         F.Show()
     End Sub
+
+    Private Sub CadastroDeClienteSQLServerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CadastroDeClienteSQLServerToolStripMenuItem.Click
+        Dim F As New Frm_Cliente_SQLServer
+        F.MdiParent = Me
+        F.Show()
+    End Sub
 End Class
