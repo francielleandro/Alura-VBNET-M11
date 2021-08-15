@@ -48,4 +48,16 @@
         F.Show()
 
     End Sub
+
+    Private Sub ManutençãoCCToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManutençãoCCToolStripMenuItem.Click
+        Dim F As New Frm_ManutencaoCCListView
+        F.MdiParent = Me
+        F.Show()
+    End Sub
+
+    Private Sub CadastroDeClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CadastroDeClienteToolStripMenuItem.Click
+        Dim F As New Frm_Cliente
+        F.MdiParent = Me
+        F.Show()
+    End Sub
 End Class

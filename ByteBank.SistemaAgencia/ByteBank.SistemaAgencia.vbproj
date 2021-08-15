@@ -76,6 +76,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ByteBankDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ByteBankDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Aleatorio.vb" />
     <Compile Include="Classes\Estagiario.vb" />
     <Compile Include="Classes\Lista.vb" />
@@ -83,6 +88,12 @@
     <Compile Include="Classes\ListaDeObjects.vb" />
     <Compile Include="Classes\ListaExtensoesModulo.vb" />
     <Compile Include="Classes\ListaShared.vb" />
+    <Compile Include="Frm_Cliente.Designer.vb">
+      <DependentUpon>Frm_Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_ContasCorrente.Designer.vb">
       <DependentUpon>Frm_ContasCorrente.vb</DependentUpon>
     </Compile>
@@ -161,6 +172,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm_Cliente.resx">
+      <DependentUpon>Frm_Cliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ContasCorrente.resx">
       <DependentUpon>Frm_ContasCorrente.vb</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +213,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ByteBankDBDataSet.xsc">
+      <DependentUpon>ByteBankDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ByteBankDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ByteBankDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ByteBankDBDataSet.xss">
+      <DependentUpon>ByteBankDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -216,6 +241,27 @@
       <Project>{d3c78bb8-1e56-472b-a6cf-b917b0891b7a}</Project>
       <Name>ByteBank.Bibliotecas</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banco de Dados\ByteBankDB.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Banco de Dados\ByteBankDB_log.ldf">
+      <DependentUpon>ByteBankDB.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

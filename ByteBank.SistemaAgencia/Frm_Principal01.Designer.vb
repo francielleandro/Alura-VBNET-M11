@@ -31,12 +31,15 @@ Partial Class Frm_Principal01
         Me.ContasCorrentesAgenciaDicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SimulaçãoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ManutençãoListViewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ManutençãoCCToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CadastroDBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CadastroDeClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArquivoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArquivoToolStripMenuItem, Me.ManutençãoCCToolStripMenuItem, Me.CadastroDBToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -86,6 +89,25 @@ Partial Class Frm_Principal01
         Me.ManutençãoListViewToolStripMenuItem.Size = New System.Drawing.Size(231, 22)
         Me.ManutençãoListViewToolStripMenuItem.Text = "Manutenção ListView"
         '
+        'ManutençãoCCToolStripMenuItem
+        '
+        Me.ManutençãoCCToolStripMenuItem.Name = "ManutençãoCCToolStripMenuItem"
+        Me.ManutençãoCCToolStripMenuItem.Size = New System.Drawing.Size(105, 20)
+        Me.ManutençãoCCToolStripMenuItem.Text = "Manutenção CC"
+        '
+        'CadastroDBToolStripMenuItem
+        '
+        Me.CadastroDBToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CadastroDeClienteToolStripMenuItem})
+        Me.CadastroDBToolStripMenuItem.Name = "CadastroDBToolStripMenuItem"
+        Me.CadastroDBToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
+        Me.CadastroDBToolStripMenuItem.Text = "Cadastro DB"
+        '
+        'CadastroDeClienteToolStripMenuItem
+        '
+        Me.CadastroDeClienteToolStripMenuItem.Name = "CadastroDeClienteToolStripMenuItem"
+        Me.CadastroDeClienteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CadastroDeClienteToolStripMenuItem.Text = "Cadastro de Cliente"
+        '
         'Frm_Principal01
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -113,4 +135,7 @@ Partial Class Frm_Principal01
     Friend WithEvents ContasCorrentesAgenciaDicToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SimulaçãoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ManutençãoListViewToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ManutençãoCCToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CadastroDBToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CadastroDeClienteToolStripMenuItem As ToolStripMenuItem
 End Class
