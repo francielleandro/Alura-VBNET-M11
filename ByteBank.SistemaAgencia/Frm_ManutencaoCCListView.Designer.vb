@@ -26,13 +26,13 @@ Partial Class Frm_ManutencaoCCListView
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.NovoToolStripButton = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolSaveButton = New System.Windows.Forms.ToolStripButton()
         Me.Grp_Lista = New System.Windows.Forms.GroupBox()
         Me.Lvw_Contas = New System.Windows.Forms.ListView()
         Me.Grp_CriterioOrdenacao = New System.Windows.Forms.GroupBox()
         Me.Rb_Conta = New System.Windows.Forms.RadioButton()
         Me.Rb_Nome = New System.Windows.Forms.RadioButton()
         Me.Rb_Saldo = New System.Windows.Forms.RadioButton()
-        Me.ToolSaveButton = New System.Windows.Forms.ToolStripButton()
         Me.ToolStrip1.SuspendLayout()
         Me.Grp_Lista.SuspendLayout()
         Me.Grp_CriterioOrdenacao.SuspendLayout()
@@ -43,7 +43,7 @@ Partial Class Frm_ManutencaoCCListView
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NovoToolStripButton, Me.ToolStripButton1, Me.ToolSaveButton})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(800, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(468, 25)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -63,7 +63,16 @@ Partial Class Frm_ManutencaoCCListView
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
+        Me.ToolStripButton1.Text = "Deletar"
+        '
+        'ToolSaveButton
+        '
+        Me.ToolSaveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolSaveButton.Image = CType(resources.GetObject("ToolSaveButton.Image"), System.Drawing.Image)
+        Me.ToolSaveButton.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolSaveButton.Name = "ToolSaveButton"
+        Me.ToolSaveButton.Size = New System.Drawing.Size(23, 22)
+        Me.ToolSaveButton.Text = "Salvar"
         '
         'Grp_Lista
         '
@@ -91,7 +100,7 @@ Partial Class Frm_ManutencaoCCListView
         Me.Grp_CriterioOrdenacao.Controls.Add(Me.Rb_Saldo)
         Me.Grp_CriterioOrdenacao.Location = New System.Drawing.Point(12, 282)
         Me.Grp_CriterioOrdenacao.Name = "Grp_CriterioOrdenacao"
-        Me.Grp_CriterioOrdenacao.Size = New System.Drawing.Size(451, 100)
+        Me.Grp_CriterioOrdenacao.Size = New System.Drawing.Size(452, 48)
         Me.Grp_CriterioOrdenacao.TabIndex = 2
         Me.Grp_CriterioOrdenacao.TabStop = False
         Me.Grp_CriterioOrdenacao.Text = "GroupBox2"
@@ -99,7 +108,7 @@ Partial Class Frm_ManutencaoCCListView
         'Rb_Conta
         '
         Me.Rb_Conta.AutoSize = True
-        Me.Rb_Conta.Location = New System.Drawing.Point(16, 65)
+        Me.Rb_Conta.Location = New System.Drawing.Point(334, 19)
         Me.Rb_Conta.Name = "Rb_Conta"
         Me.Rb_Conta.Size = New System.Drawing.Size(90, 17)
         Me.Rb_Conta.TabIndex = 2
@@ -110,7 +119,7 @@ Partial Class Frm_ManutencaoCCListView
         'Rb_Nome
         '
         Me.Rb_Nome.AutoSize = True
-        Me.Rb_Nome.Location = New System.Drawing.Point(16, 43)
+        Me.Rb_Nome.Location = New System.Drawing.Point(176, 19)
         Me.Rb_Nome.Name = "Rb_Nome"
         Me.Rb_Nome.Size = New System.Drawing.Size(90, 17)
         Me.Rb_Nome.TabIndex = 1
@@ -129,20 +138,11 @@ Partial Class Frm_ManutencaoCCListView
         Me.Rb_Saldo.Text = "RadioButton1"
         Me.Rb_Saldo.UseVisualStyleBackColor = True
         '
-        'ToolSaveButton
-        '
-        Me.ToolSaveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolSaveButton.Image = CType(resources.GetObject("ToolSaveButton.Image"), System.Drawing.Image)
-        Me.ToolSaveButton.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolSaveButton.Name = "ToolSaveButton"
-        Me.ToolSaveButton.Size = New System.Drawing.Size(23, 22)
-        Me.ToolSaveButton.Text = "Salvar"
-        '
         'Frm_ManutencaoCCListView
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(468, 336)
         Me.Controls.Add(Me.Grp_CriterioOrdenacao)
         Me.Controls.Add(Me.Grp_Lista)
         Me.Controls.Add(Me.ToolStrip1)

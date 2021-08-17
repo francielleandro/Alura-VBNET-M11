@@ -1,4 +1,5 @@
-﻿Public Class Frm_TesteDB
+﻿Imports ByteBank.Bibliotecas.Classes.BancoDeDados
+Public Class Frm_TesteDB
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         DtGrid_Resultado.Columns.Clear()
         DtGrid_Resultado.DataSource = Nothing
@@ -42,7 +43,6 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim CPF = "408223223"
         Dim comando As String = $"DELETE FROM CLIENTE WHERE CPF = '{CPF}';"
-
         Try
             Dim DB As New SQLServerConn("DESKTOP-RGPMAAC", "BYTEBANK")
             DB.SQLCommand(comando)

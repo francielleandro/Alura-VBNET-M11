@@ -66,4 +66,11 @@
         F.MdiParent = Me
         F.Show()
     End Sub
+
+    Private Sub ManutençãoDeClientesDBToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManutençãoDeClientesDBToolStripMenuItem.Click
+        Dim F As New Frm_ManutencaoClienteDB
+        F.MdiParent = Me
+        F.Show()
+    End Sub
+
 End Class

@@ -8,3 +8,13 @@ C:\Projetos\VB.NET\Alura-VBNET-M9\ByteBank.Bibliotecas\obj\Debug\ByteBank.Biblio
 C:\Projetos\VB.NET\Alura-VBNET-M9\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.dll
 C:\Projetos\VB.NET\Alura-VBNET-M9\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.xml
 C:\Projetos\VB.NET\Alura-VBNET-M9\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.pdb
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\bin\Debug\ByteBank.Bibliotecas.dll
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\bin\Debug\ByteBank.Bibliotecas.pdb
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\bin\Debug\ByteBank.Bibliotecas.xml
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.vbproj.AssemblyReference.cache
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.Resources.resources
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.vbproj.GenerateResource.cache
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.vbproj.CoreCompileInputs.cache
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.dll
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.xml
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.Bibliotecas\obj\Debug\ByteBank.Bibliotecas.pdb

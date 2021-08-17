@@ -35,6 +35,7 @@ Partial Class Frm_Principal01
         Me.CadastroDBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CadastroDeClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CadastroDeClienteSQLServerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ManutençãoDeClientesDBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -98,7 +99,7 @@ Partial Class Frm_Principal01
         '
         'CadastroDBToolStripMenuItem
         '
-        Me.CadastroDBToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CadastroDeClienteToolStripMenuItem, Me.CadastroDeClienteSQLServerToolStripMenuItem})
+        Me.CadastroDBToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CadastroDeClienteToolStripMenuItem, Me.CadastroDeClienteSQLServerToolStripMenuItem, Me.ManutençãoDeClientesDBToolStripMenuItem})
         Me.CadastroDBToolStripMenuItem.Name = "CadastroDBToolStripMenuItem"
         Me.CadastroDBToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
         Me.CadastroDBToolStripMenuItem.Text = "Cadastro DB"
@@ -114,6 +115,12 @@ Partial Class Frm_Principal01
         Me.CadastroDeClienteSQLServerToolStripMenuItem.Name = "CadastroDeClienteSQLServerToolStripMenuItem"
         Me.CadastroDeClienteSQLServerToolStripMenuItem.Size = New System.Drawing.Size(236, 22)
         Me.CadastroDeClienteSQLServerToolStripMenuItem.Text = "Cadastro de Cliente SQL Server"
+        '
+        'ManutençãoDeClientesDBToolStripMenuItem
+        '
+        Me.ManutençãoDeClientesDBToolStripMenuItem.Name = "ManutençãoDeClientesDBToolStripMenuItem"
+        Me.ManutençãoDeClientesDBToolStripMenuItem.Size = New System.Drawing.Size(236, 22)
+        Me.ManutençãoDeClientesDBToolStripMenuItem.Text = "Manutenção de Clientes DB"
         '
         'Frm_Principal01
         '
@@ -146,4 +153,5 @@ Partial Class Frm_Principal01
     Friend WithEvents CadastroDBToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CadastroDeClienteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CadastroDeClienteSQLServerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ManutençãoDeClientesDBToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -78,7 +78,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Banco de Dados\SQLServerConn.vb" />
     <Compile Include="BYTEBANKDataSet1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -150,6 +149,12 @@
     <Compile Include="Frm_ManutencaoCCListView.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frm_ManutencaoClienteDB.Designer.vb">
+      <DependentUpon>Frm_ManutencaoClienteDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ManutencaoClienteDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_Principal01.Designer.vb">
       <DependentUpon>Frm_Principal01.vb</DependentUpon>
     </Compile>
@@ -218,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ManutencaoCCListView.resx">
       <DependentUpon>Frm_ManutencaoCCListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ManutencaoClienteDB.resx">
+      <DependentUpon>Frm_ManutencaoClienteDB.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal01.resx">
       <DependentUpon>Frm_Principal01.vb</DependentUpon>
