@@ -493,3 +493,4 @@ C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.SistemaAgencia\obj\Debug\ByteBank.Si
 C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
 C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.Frm_Cliente.resources
 C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.Frm_Cliente_SQLServer.resources
+C:\Projetos\VB.NET\Alura-VBNET-M11\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.Frm_TesteDB.resources

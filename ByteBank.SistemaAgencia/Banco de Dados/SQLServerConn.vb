@@ -5,9 +5,10 @@ Public Class SQLServerConn
     Public Property connDB As SqlConnection
 #End Region
 #Region "Constructor"
-    Public Sub New()
+    Public Sub New(Servidor As String, Banco As String)
         ' StringConn = "Persist Security Info=False;Integrated Security=True;Initial Catalog=Northwind;server=(local)"
-        StringConn = "Data Source=DESKTOP-RGPMAAC;Initial Catalog=BYTEBANK;Integrated Security=True"
+        'StringConn = "Data Source=DESKTOP-RGPMAAC;Initial Catalog=BYTEBANK;Integrated Security=True"
+        StringConn = "Data Source=" + Servidor + ";Initial Catalog=" + Banco + ";Integrated Security=True"
         connDB = New SqlConnection(StringConn)
         connDB.Open()
     End Sub
